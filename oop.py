@@ -1,0 +1,1 @@
+class new_class:    def __init__(self, name, roll, gpa):        self.name=name        self.roll=roll        self.gpa = gpa    def output(self) :        print("this is your name:", self.name, 'this is your roll:', self.roll, "this is your Class:", self.gpa)obj1 = new_class("md omar",5,7.7)obj1.output()# inheritance
