@@ -31,3 +31,8 @@ elif (num%2==0):
     print("this is a even number")
 else:
     print("this is a odd number ")
+#tringale area 
+b = float(input("Enter your base:"))
+h = float(input("Enter your height:"))
+area = 0.5*b*h
+print(area)
